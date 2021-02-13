@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Simple Calculator</h1>
+    <div id="main">
+      <div id="history"><h1></h1></div>
+      <div id="current"><h1></h1></div>
+      <br />
+      <button id="on" onclick="power()">P</button>
+      <button id="reset" onclick="reset()">C</button>
+      <button id="delete" onclick="del()">X</button>
+      <button class="operator" onclick="operator(0)">/</button>
+      <button class="number" onclick="number(0)">7</button>
+      <button class="number" onclick="number(1)">8</button>
+      <button class="number" onclick="number(2)">9</button>
+      <button class="operator" onclick="operator(1)">*</button>
+      <button class="number" onclick="number(3)">4</button>
+      <button class="number" onclick="number(4)">5</button>
+      <button class="number" onclick="number(5)">6</button>
+      <button class="operator" onclick="operator(2)">-</button>
+      <button class="number" onclick="number(6)">1</button>
+      <button class="number" onclick="number(7)">2</button>
+      <button class="number" onclick="number(8)">3</button>
+      <button class="operator" onclick="operator(3)">+</button>
+      <button class="number" onclick="number(9)">0</button>
+      <button id="point" onclick="point()">.</button>
+      <button id="ans" onclick="answer()">=</button>
+    </div>
+    <script src="jscode.js"></script>
+  </body>
+</html>

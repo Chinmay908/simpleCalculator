@@ -1,0 +1,46 @@
+body{
+  background-color: wheat;
+}
+#main {
+  width: 290px;
+  height: 440px;
+  margin: 0 auto;
+  box-shadow: 2px 0px 28px 4px rgba(0,0,0,0.75);
+  background-color: white;
+  
+}
+.number,
+.operator,
+#on,
+#delete,
+#reset,
+#point,
+#ans {
+  margin: 20px;
+  float: left;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+}
+#current,
+#history {
+  font-size: 25px;
+  width: 280px;
+  height: 20px;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 5px;
+}
+#history {
+  color: gray;
+}
+h1{
+  text-align: center;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
